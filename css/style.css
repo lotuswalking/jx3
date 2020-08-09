@@ -1,0 +1,69 @@
+body{
+    margin:0;
+}
+.container {
+    position: relative;
+    /* height: 720px; */
+    background-color: bisque;
+}
+.select {
+    position: absolute;
+    top:30px;
+    left:100px;
+    height: 282px;
+    width: 315px;
+    /* background-color: blue; */
+
+}
+.btn {
+    position: relative;
+    float: left;  /*元素排列顺序 */
+    width: 40px;
+    height:100%;
+    margin-right: 10px; /*右边距*/
+    /* background-color: aquamarine; */
+    background-image:url("/imgs/dashijie-b606cf26.png");
+}
+.btn.first{
+    background-position: 0 0;
+}
+.btn.first.active,
+.btn.first:hover{
+    background-position: -368px 0;
+}
+.btn.second{
+    background-position: -59px;
+}
+.btn.second.active,
+.btn.second:hover{
+    background-position: -428px;
+}
+.btn.thrid.active,
+.btn.third{
+    background-position: -113px 0;
+}
+.btn.third.active,
+.btn.third:hover{
+    background-position: -481px 0;
+}
+.btn.forth{
+    background-position: -169px 0;
+}
+.btn.forth.active,
+.btn.forth:hover{
+    background-position: -537px 0;
+}
+.btn.fifth{
+    background-position: -224px 0;
+}
+.btn.fifth.active,
+.btn.fifth:hover{
+    background-position: -592px 0;
+}
+.btn.sixth{
+    background-position: -279px 0;
+}
+.btn.sixth.active,
+.btn.sixth:hover{
+    background-position: -647px 0;
+}
