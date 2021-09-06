@@ -2,7 +2,9 @@
 var playList=[];
 var videos = [];
 $(document).ready(function(){
+    var vid = document.getElementById("guofengVideo");
     videos = document.getElementsByClassName("btn");
+
     // console.log(videos);
     Array.from(videos).forEach(element => {
         // console.log(element.id);
@@ -36,7 +38,12 @@ $(document).ready(function(){
         
         vid.src=playList[playId];
         vid.setAttribute("playId",playId);
-
+        // console.log(videos[playId]);
+        // videos[playId].focus();
+        
+        // e.target.attributes.playId = playId;
+        // vid.playId=playId;
+        // vid.load();
     });
     vid.addEventListener("load",(e)=>{
         // vid.muted=false;
