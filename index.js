@@ -7,7 +7,7 @@ $(document).ready(function(){
     // console.log(videos);
     Array.from(videos).forEach(element => {
         // console.log(element.id);
-        playList.push("/video/"+element.id+".mp4");
+        playList.push("./video/"+element.id+".mp4");
     });
  
     $(".btn").hover(function(event){
@@ -16,7 +16,7 @@ $(document).ready(function(){
         playId=vid.attributes.playId.value;
         // console.log(id)
         vid.pause();
-        vid.src ="/video/"+id+".mp4";
+        vid.src ="./video/"+id+".mp4";
         vid.setAttribute("playId",target.attributes.index.value);
         videos[playId].focus();
         vid.load();
