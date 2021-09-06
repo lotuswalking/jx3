@@ -22,7 +22,7 @@ body{
     height:100%;
     margin-right: 10px; /*右边距*/
     /* background-color: aquamarine; */
-    background-image:url("./imgs/dashijie-b606cf26.png");
+    background-image:url("./../imgs/dashijie-b606cf26.png");
 }
 .btn.first{
     background-position: 0 0;
