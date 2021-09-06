@@ -1,9 +1,10 @@
-var vid = document.getElementById("guofengVideo");
-var videos = [];
-videos = document.getElementsByClassName("btn");
-vid.play();
+
 var playList=[];
+var videos = [];
 $(document).ready(function(){
+    var vid = document.getElementById("guofengVideo");
+    videos = document.getElementsByClassName("btn");
+    vid.play();
     // console.log(videos);
     Array.from(videos).forEach(element => {
         // console.log(element.id);
